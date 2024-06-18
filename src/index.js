@@ -2,15 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import App from "./App"; 
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Weather from "./components/Weather";
 
 // Define routes for the application
 const router = createBrowserRouter([
   {
-    path: "/main",
-    element: <App />, 
+    path: "/",
+    element: <App />,
   },
   {
     path: "/weather",
